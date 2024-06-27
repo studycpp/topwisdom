@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">最高智慧</string>
+    <string name="str_weolcome">欢迎来到智慧之地,让我们一起开动脑筋,处理各种问题,到达更高境界</string>
+    <string name="str_start">开始</string>
+    <string name="str_resume">继续</string>
+    <string name="str_firstbackbround">欢迎画面背景</string>
+    <string name="str_select_title">选择题目</string>
+    <string name="str_select_info">题目共%1$s道, 未做%2$s道, 正确%3$s道, 错误%4$s道</string>
+    <string name="str_option_title">设置</string>
+    <string name="str_option_info">设置游戏声音等选项</string>
+    <string name="str_please_donate">请您捐助,可以得到方法提示</string>
+    <string name="str_music_background">背景音乐</string>
+    <string name="str_sound">音效开关</string>
+    <string name="str_back">返回</string>
+    <string name="str_donate">捐赠</string>
+    <string name="str_yes">确定</string>
+    <string name="str_share">分享</string>
+    <string name="str_share_title">分享\"最高智慧\"</string>
+    <string name="str_share_info">最高智慧这个游戏app很有智慧,快来一起玩吧</string>
+    <string name="str_redo">重做</string>
+    <string name="str_error">错误</string>
+    <string name="str_prev">上一题</string>
+    <string name="str_next">下一题</string>
+    <string name="str_privacy_label"><u>协议和声明</u></string>
+
+    <string name="str_donate_no">请粘贴输入支付宝转账的\"订单号\",确认</string>
+    <string name="str_donate_ok">非常感谢您的支持.可以继续捐赠</string>
+    <string name="str_donate_error">未捐赠,请支持作者继续努力</string>
+    <string name="str_donate_code">*****隐藏的捐赠码*****</string>
+    <string name="str_privacy_info">
+        本app\"最高智慧\"是免费软件,非常重视用户隐私政策,尊重版权并严格遵守相关的法律规定。请您仔细阅读同意后再继续使用。\n
+        1.本app承诺和遵守<big><b>不</b></big>采集,存储,泄露用户的隐私信息,包括但不限于用户的账号,通信录等,IMEI号,MAC地址,IP地址等\n　
+        2.本app需要网络访问权限和传感器权限:为游戏需要的内置编程组件固有,在判断用户是否为捐赠用户时,需要联网操作以确定准确的网络时间\n
+        3.本app使用的素材内容为免费的或者经过版权人授权的素材,但如果您发现本app的内容侵犯了您的版权或者隐私,请告知我们<a href="xu777@outlook.com">xu777@outlook.com</a>\n
+	 </string>
+
+    <string name="str_right_title">好,通过了</string>
+    <string name="str_wrong_title">请再试试</string>
+    <string name="str_wrong_hasdonated">请再试试.已捐赠用户可以点击上方题目的标题得到提示\n</string>
+    <string name="str_wrong_must_donate" formatted="false">
+        你尚未捐赠,只能通过当前项目后,才可以进行到下一项目.
+    </string>
+    <string name="str_wrong_ask_donate" formatted="false">
+        a.捐赠用户可以选择任意项目,而且点击标题可获得玩法提示;\nb.未捐赠用户可以玩已经通过项目,但错误次数到达3后,每2小时(120分)后才可以再次尝试;\nc.你当前累计次数为%1$s 次 ,
+    </string>
+    <string name="str_waittime" formatted="false">距离下次可以再玩时间为%1s 分(%2s秒) 在 %3s \n</string>
+    <string name="str_post">提交</string>
+
+</resources>
