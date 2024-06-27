@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idInputNumberLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    tools:context=".MyInputNumberView">
+
+    <Button
+        android:id="@+id/idInputNumber0"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="0"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber9"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumber5" />
+
+    <Button
+        android:id="@+id/idInputNumber6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="6"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumber1" />
+
+    <Button
+        android:id="@+id/idInputNumber7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="7"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber6"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumber2" />
+
+    <Button
+        android:id="@+id/idInputNumber8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="8"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber7"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumber3" />
+
+    <Button
+        android:id="@+id/idInputNumber9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="9"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber8"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumber4" />
+
+    <Button
+        android:id="@+id/idInputNumber5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="5"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber4"
+        app:layout_constraintTop_toTopOf="@+id/idInputNumber3" />
+
+    <Button
+        android:id="@+id/idInputNumber4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="4"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber3"
+        app:layout_constraintTop_toTopOf="@+id/idInputNumber3" />
+
+    <Button
+        android:id="@+id/idInputNumber3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="3"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber2"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumberText" />
+
+    <Button
+        android:id="@+id/idInputNumber2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="2"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber1"
+        app:layout_constraintTop_toTopOf="@+id/idInputNumber3" />
+
+    <Button
+        android:id="@+id/idInputNumberDec"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="-"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idInputNumberAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="+"
+        app:cornerRadius="5dp"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumberText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idInputNumber1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="1"
+        android:textAlignment="center"
+        app:cornerRadius="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumberDec" />
+
+    <EditText
+        android:id="@+id/idInputNumberText"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toStartOf="@+id/idInputNumberAdd"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumberDec"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idInputNumberDel"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="del"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/idInputNumber5"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumberAdd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/idInputNumberComfirm"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:autoSizeTextType="uniform"
+        android:capitalize="none"
+        android:text="@string/str_post"
+        android:textColor="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/idInputNumber0"
+        app:layout_constraintTop_toBottomOf="@+id/idInputNumberDel" />
+</androidx.constraintlayout.widget.ConstraintLayout>
